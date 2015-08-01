@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy source folder &apos;src&apos; to &apos;CreatingInterfaces&apos;&#x0A;- Original project: &apos;UsingInterfaces&apos;&#x0A;- Destination element: &apos;CreatingInterfaces&apos;&#x0A;- Original element: &apos;UsingInterfaces/src&apos;" description="Copy source folder" destination="=CreatingInterfaces" element1="/src" flags="6" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyRoots" roots="1" stamp="1434583404311" version="1.0"/>
+</session>

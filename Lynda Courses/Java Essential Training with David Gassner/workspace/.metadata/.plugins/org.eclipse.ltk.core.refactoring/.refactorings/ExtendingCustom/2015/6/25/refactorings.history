@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy source folder &apos;src&apos; to &apos;OverridingMethods&apos;&#x0A;- Original project: &apos;ExtendingCustom&apos;&#x0A;- Destination element: &apos;OverridingMethods&apos;&#x0A;- Original element: &apos;ExtendingCustom/src&apos;" description="Copy source folder" destination="=OverridingMethods" element1="/src" flags="6" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyRoots" roots="1" stamp="1434580565066" version="1.0"/>
+</session>

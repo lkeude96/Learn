@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F407E73F18266E7300E25D78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F407E73E18266E7300E25D78 /* Foundation.framework */; };
+		F407E74218266E7300E25D78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F407E74118266E7300E25D78 /* main.m */; };
+		F407E74618266E7300E25D78 /* DynamicTypingDemo.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F407E74518266E7300E25D78 /* DynamicTypingDemo.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F407E73918266E7300E25D78 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				F407E74618266E7300E25D78 /* DynamicTypingDemo.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F407E73B18266E7300E25D78 /* DynamicTypingDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DynamicTypingDemo; sourceTree = BUILT_PRODUCTS_DIR; };
+		F407E73E18266E7300E25D78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F407E74118266E7300E25D78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F407E74418266E7300E25D78 /* DynamicTypingDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DynamicTypingDemo-Prefix.pch"; sourceTree = "<group>"; };
+		F407E74518266E7300E25D78 /* DynamicTypingDemo.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DynamicTypingDemo.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F407E73818266E7300E25D78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F407E73F18266E7300E25D78 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F407E73218266E7300E25D78 = {
+			isa = PBXGroup;
+			children = (
+				F407E74018266E7300E25D78 /* DynamicTypingDemo */,
+				F407E73D18266E7300E25D78 /* Frameworks */,
+				F407E73C18266E7300E25D78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F407E73C18266E7300E25D78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F407E73B18266E7300E25D78 /* DynamicTypingDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F407E73D18266E7300E25D78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F407E73E18266E7300E25D78 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F407E74018266E7300E25D78 /* DynamicTypingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F407E74118266E7300E25D78 /* main.m */,
+				F407E74518266E7300E25D78 /* DynamicTypingDemo.1 */,
+				F407E74318266E7300E25D78 /* Supporting Files */,
+			);
+			path = DynamicTypingDemo;
+			sourceTree = "<group>";
+		};
+		F407E74318266E7300E25D78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F407E74418266E7300E25D78 /* DynamicTypingDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F407E73A18266E7300E25D78 /* DynamicTypingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F407E74918266E7300E25D78 /* Build configuration list for PBXNativeTarget "DynamicTypingDemo" */;
+			buildPhases = (
+				F407E73718266E7300E25D78 /* Sources */,
+				F407E73818266E7300E25D78 /* Frameworks */,
+				F407E73918266E7300E25D78 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicTypingDemo;
+			productName = DynamicTypingDemo;
+			productReference = F407E73B18266E7300E25D78 /* DynamicTypingDemo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F407E73318266E7300E25D78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "lynda.com, inc.";
+			};
+			buildConfigurationList = F407E73618266E7300E25D78 /* Build configuration list for PBXProject "DynamicTypingDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F407E73218266E7300E25D78;
+			productRefGroup = F407E73C18266E7300E25D78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F407E73A18266E7300E25D78 /* DynamicTypingDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F407E73718266E7300E25D78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F407E74218266E7300E25D78 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F407E74718266E7300E25D78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F407E74818266E7300E25D78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F407E74A18266E7300E25D78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DynamicTypingDemo/DynamicTypingDemo-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F407E74B18266E7300E25D78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DynamicTypingDemo/DynamicTypingDemo-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F407E73618266E7300E25D78 /* Build configuration list for PBXProject "DynamicTypingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F407E74718266E7300E25D78 /* Debug */,
+				F407E74818266E7300E25D78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F407E74918266E7300E25D78 /* Build configuration list for PBXNativeTarget "DynamicTypingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F407E74A18266E7300E25D78 /* Debug */,
+				F407E74B18266E7300E25D78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F407E73318266E7300E25D78 /* Project object */;
+}

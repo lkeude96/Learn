@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private static void getArrayItem()&apos; from &apos;Main.main()&apos; to &apos;Main&apos;&#x0A;- Original project: &apos;ThrowingExceptions&apos;&#x0A;- Method name: &apos;getArrayItem&apos;&#x0A;- Destination type: &apos;Main&apos;&#x0A;- Declared visibility: &apos;private&apos;&#x0A;- Declare thrown runtime exceptions" comments="false" description="Extract method &apos;getArrayItem&apos;" destination="0" exceptions="true" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;{Main.java" name="getArrayItem" replace="false" selection="69 66" stamp="1434425506899" version="1.0" visibility="2"/>
+</session>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A379b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EU8-iQ-wQR"/>
+                        <viewControllerLayoutGuide type="bottom" id="sLQ-uA-kdJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Sd3-C8-9wD">
+                                <rect key="frame" x="20" y="66" width="280" height="29"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                    <segment title="Third"/>
+                                    <segment title="Fourth"/>
+                                </segments>
+                            </segmentedControl>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mxd-ga-ZzF">
+                                <rect key="frame" x="20" y="140" width="280" height="370"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="Title:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TMA-Rr-my7">
+                                <rect key="frame" x="20" y="112" width="37" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="R9P-WS-J9y"/>
+                                    <constraint firstAttribute="width" constant="37" id="SWf-zd-WyX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Interesting Title Goes Here" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2di-Hi-ETt">
+                                <rect key="frame" x="65" y="112" width="235" height="20"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F6M-Dy-tUe">
+                                <rect key="frame" x="20" y="28" width="56" height="30"/>
+                                <state key="normal" title="Top Left">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thQ-xT-GGr">
+                                <rect key="frame" x="234" y="28" width="66" height="30"/>
+                                <state key="normal" title="Top Right">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XOT-TR-hAr">
+                                <rect key="frame" x="209" y="518" width="91" height="30"/>
+                                <state key="normal" title="Bottom Right">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GcM-9G-k5a">
+                                <rect key="frame" x="20" y="518" width="82" height="30"/>
+                                <state key="normal" title="Bottom Left">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="F6M-Dy-tUe" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="4" id="1gR-Mm-wfG"/>
+                            <constraint firstItem="mxd-ga-ZzF" firstAttribute="trailing" secondItem="XOT-TR-hAr" secondAttribute="trailing" id="2fC-7A-lPJ"/>
+                            <constraint firstItem="mxd-ga-ZzF" firstAttribute="top" secondItem="TMA-Rr-my7" secondAttribute="bottom" constant="8" symbolic="YES" id="3ec-HW-3Mb"/>
+                            <constraint firstAttribute="bottom" secondItem="GcM-9G-k5a" secondAttribute="bottom" constant="20" symbolic="YES" id="3yj-MM-hr8"/>
+                            <constraint firstItem="Sd3-C8-9wD" firstAttribute="trailing" secondItem="2di-Hi-ETt" secondAttribute="trailing" id="66p-R4-dO6"/>
+                            <constraint firstItem="GcM-9G-k5a" firstAttribute="baseline" secondItem="XOT-TR-hAr" secondAttribute="baseline" id="AH7-ck-kG0"/>
+                            <constraint firstItem="mxd-ga-ZzF" firstAttribute="leading" secondItem="GcM-9G-k5a" secondAttribute="leading" id="ElF-5o-KLn"/>
+                            <constraint firstItem="Sd3-C8-9wD" firstAttribute="top" secondItem="F6M-Dy-tUe" secondAttribute="bottom" constant="8" symbolic="YES" id="K6d-3C-PlG"/>
+                            <constraint firstItem="GcM-9G-k5a" firstAttribute="top" secondItem="mxd-ga-ZzF" secondAttribute="bottom" constant="8" symbolic="YES" id="LuT-ia-qze"/>
+                            <constraint firstItem="thQ-xT-GGr" firstAttribute="baseline" secondItem="F6M-Dy-tUe" secondAttribute="baseline" id="MMC-8J-ZUt"/>
+                            <constraint firstItem="TMA-Rr-my7" firstAttribute="firstBaseline" secondItem="2di-Hi-ETt" secondAttribute="firstBaseline" id="MlC-MR-aFV"/>
+                            <constraint firstItem="mxd-ga-ZzF" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="QMn-8e-Qy7"/>
+                            <constraint firstItem="TMA-Rr-my7" firstAttribute="leading" secondItem="mxd-ga-ZzF" secondAttribute="leading" id="RfC-Tp-GYU"/>
+                            <constraint firstItem="thQ-xT-GGr" firstAttribute="trailing" secondItem="Sd3-C8-9wD" secondAttribute="trailing" id="Teh-Nk-ddj"/>
+                            <constraint firstItem="mxd-ga-ZzF" firstAttribute="trailing" secondItem="2di-Hi-ETt" secondAttribute="trailing" id="Yvc-q7-5je"/>
+                            <constraint firstItem="2di-Hi-ETt" firstAttribute="leading" secondItem="TMA-Rr-my7" secondAttribute="trailing" constant="8" symbolic="YES" id="ZZJ-Kx-Ylx"/>
+                            <constraint firstItem="F6M-Dy-tUe" firstAttribute="leading" secondItem="Sd3-C8-9wD" secondAttribute="leading" id="aXv-s5-LvX"/>
+                            <constraint firstItem="2di-Hi-ETt" firstAttribute="baseline" secondItem="TMA-Rr-my7" secondAttribute="baseline" id="kCt-C5-goW"/>
+                            <constraint firstItem="TMA-Rr-my7" firstAttribute="top" secondItem="Sd3-C8-9wD" secondAttribute="bottom" constant="18" id="lMF-b8-ixG"/>
+                            <constraint firstItem="F6M-Dy-tUe" firstAttribute="top" secondItem="EU8-iQ-wQR" secondAttribute="bottom" constant="8" symbolic="YES" id="sKa-cp-bdY"/>
+                            <constraint firstItem="Sd3-C8-9wD" firstAttribute="leading" secondItem="TMA-Rr-my7" secondAttribute="leading" id="tOy-NV-5gV"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="196" y="188"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
