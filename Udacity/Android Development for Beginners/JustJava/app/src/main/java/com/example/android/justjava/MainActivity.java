@@ -29,17 +29,14 @@ public class MainActivity extends ActionBarActivity {
         priceMessage = priceMessage + " Thank You!";
         displayMessage(priceMessage);
 
-        calculatePrice(quantity, 10);
+        calculatePrice();
     }
 
     /**
-     * Calculates the price of the order.
-     *
-     * @param quantity is the number of cups of coffee ordered
-     * @param pricePerCup is the price of one cup of coffee
+     * Calculates the price of the order
      */
-    private void calculatePrice(int quantity, int pricePerCup) {
-        int price = quantity * pricePerCup;
+    private void calculatePrice() {
+        int price = quantity * 5;
     }
 
     /**
