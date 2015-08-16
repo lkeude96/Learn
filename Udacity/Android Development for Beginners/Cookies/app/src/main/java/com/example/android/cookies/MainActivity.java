@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         // TODO: Find a reference to the ImageView in the layout. Change the image.
         ImageView imageView = (ImageView) findViewById(R.id.android_cookie_image_view);
         imageView.setImageResource(R.drawable.after_cookie);
-        
+
         // TODO: Find a reference to the TextView in the layout. Change the text.
         TextView textView = (TextView) findViewById(R.id.status_text_view);
         textView.setText("I'm so full");
