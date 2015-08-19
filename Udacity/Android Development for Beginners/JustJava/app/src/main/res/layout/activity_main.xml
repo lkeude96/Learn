@@ -29,6 +29,14 @@
         android:text="Whipped Cream"
         android:textSize="16sp" />
 
+    <CheckBox
+        android:id="@+id/chocolate_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="24dp"
+        android:text="Chocolate"
+        android:textSize="16sp" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -36,6 +44,7 @@
         android:layout_marginTop="16dp"
         android:text="Quantity"
         android:textAllCaps="true"/>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

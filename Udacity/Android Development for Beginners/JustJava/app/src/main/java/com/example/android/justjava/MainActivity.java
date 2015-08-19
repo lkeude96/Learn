@@ -28,8 +28,10 @@ public class MainActivity extends ActionBarActivity {
     public void submitOrder(View view) {
         CheckBox whippedCreamCheckBox = (CheckBox) findViewById(R.id.whipped_cream_checkbox);
         boolean hasWhippedCream = whippedCreamCheckBox.isChecked();
+        CheckBox chocolateCheckBox = (CheckBox) findViewById(R.id.chocolate_checkbox);
+        boolean hasChocolate = chocolateCheckBox.isChecked();
         int price = calculatePrice();
-        String priceMessage = createOrderSummary(price, hasWhippedCream);
+        String priceMessage = createOrderSummary(price, hasWhippedCream, hasChocolate);
         displayMessage(priceMessage);
 
         ;
@@ -64,11 +66,13 @@ public class MainActivity extends ActionBarActivity {
      *
      * @param price of the order
      * @param addWhippedCream is whether or not the user wants whipped cream topping
+     * @param addChocolate is whether or not the user wants chocolate topping
      * @return text summary
      */
-    private String createOrderSummary(int price, boolean addWhippedCream) {
+    private String createOrderSummary(int price, boolean addWhippedCream, boolean addChocolate) {
         String priceMessage = "Name: Kaptain Kunal";
         priceMessage += "\nAdd whipped cream? " + addWhippedCream;
+        priceMessage += "\nAdd Chocolate? " + addChocolate;
         priceMessage += "\nQuantity: " + quantity;
         priceMessage += "\nTotal: $" + price;
         priceMessage += "\nThank You!";
