@@ -46,7 +46,7 @@ public class MainActivity extends ActionBarActivity {
 
         Intent intent = new Intent(Intent.ACTION_SENDTO);
         intent.setData(Uri.parse("mailto:"));
-        intent.putExtra(Intent.EXTRA_SUBJECT,"Just Java order for " + name);
+        intent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.order_summary_email_subject, name));
         intent.putExtra(Intent.EXTRA_TEXT, priceMessage);
 
         if (intent.resolveActivity(getPackageManager()) != null) {
@@ -100,18 +100,18 @@ public class MainActivity extends ActionBarActivity {
      * @return text summary
      */
     private String createOrderSummary(String name, int price, boolean addWhippedCream, boolean addChocolate) {
-        String priceMessage = "Name: " + name;
-        priceMessage += "\nAdd whipped cream? " + addWhippedCream;
-        priceMessage += "\nAdd Chocolate? " + addChocolate;
-        priceMessage += "\nQuantity: " + quantity;
-        priceMessage += "\nTotal: $" + price;
-        priceMessage += "\nThank You!";
+        String priceMessage = getString(R.string.order_summary_name, name);
+        priceMessage += "\n" + getString(R.string.order_summary_whipped_cream, addWhippedCream);
+        priceMessage += "\n" + getString(R.string.order_summary_chocolate, addChocolate);
+        priceMessage += "\n" + getString(R.string.order_summary_quantity, quantity);
+        priceMessage += "\n" + getString(R.string.order_summary_price, NumberFormat.getCurrencyInstance().format(price));
+        priceMessage += "\n" + getString(R.string.thank_you);
         return priceMessage;
     }
 
     public void increment(View view) {
         if (quantity == 100) {
-            Toast.makeText(this, "You cannot have more than 100 coffees", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, getString(R.string.error_100_coffees), Toast.LENGTH_LONG).show();
             return;
         }
 
@@ -121,7 +121,7 @@ public class MainActivity extends ActionBarActivity {
 
     public void decrement(View view) {
         if (quantity == 1) {
-            Toast.makeText(this, "You cannot have less than 1 coffee", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, getString(R.string.error_1_coffee), Toast.LENGTH_LONG).show();
             return;
         }
 
