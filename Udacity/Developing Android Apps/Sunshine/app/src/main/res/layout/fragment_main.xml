@@ -1,4 +1,4 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -6,11 +6,9 @@
     android:paddingBottom="@dimen/activity_vertical_margin" tools:showIn="@layout/activity_main"
     tools:context=".MainActivityFragment">
 
-    <TextView android:id="@+id/date" android:text="Today, October 10" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <TextView android:id="@+id/temp_high" android:text="21°" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" android:layout_below="@+id/date" android:textSize="@dimen/abc_text_size_large_material"/>
-    <TextView android:text="8°" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" android:layout_below="@+id/temp_high" android:textSize="@dimen/abc_text_size_large_material"/>
+    <ListView
+        android:id="@+id/listview_forecast"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
-</RelativeLayout>
+</FrameLayout>
