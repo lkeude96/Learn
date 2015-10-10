@@ -1,11 +1,11 @@
 #!/bin/bash
 # This is a basic bash script.
-greeting="hello"
+a=Hello
+b="Good Morning"
+c=16
 
-echo $greeting, world \(planet\)!
+echo $a
+echo $b
+echo $c
 
-echo '$greeting, world (planet)!'
-echo
-echo
-echo
-echo "$greeting, world (planet)!"
+echo "$b! I have $c apples."
