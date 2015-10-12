@@ -29,7 +29,7 @@ public class MainActivityFragment extends Fragment {
                 "Weds - Cloudy - 72/63",
                 "Thurs - Asteroids - 75/65",
                 "Fri - Heavy Rain - 65/56 ",
-                "Sat - HELP TRAPPED IN WEATHERSTATION - 60/51"
+                "Sat - HELP TRAPPED IN WEATHERSTATION - 60/51",
                 "Sun - Sunny - 80/68"
         };
 

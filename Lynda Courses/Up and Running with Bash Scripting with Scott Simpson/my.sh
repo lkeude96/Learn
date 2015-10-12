@@ -1,11 +1,4 @@
 #!/bin/bash
 # This is a basic bash script.
-a=Hello
-b="Good Morning"
-c=16
-
-echo $a
-echo $b
-echo $c
-
-echo "$b! I have $c apples."
+a=$(ping -c 1 example.com | grep 'bytes from' | cut -d = -f 4)
+echo "The ping was $a"
