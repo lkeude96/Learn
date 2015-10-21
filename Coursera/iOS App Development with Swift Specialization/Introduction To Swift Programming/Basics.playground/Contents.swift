@@ -2,18 +2,16 @@
 
 import UIKit
 
-var animals = ["chickens", "cows", "ducks"]
-animals[1] = "geese"
-
-var cuteness = [
-    "chicken" : "somewhat",
-    "ducks" : "cute",
-    "geese" : "scary"
-]
-
-
-cuteness["ducks"]
-
-for animal in animals {
-    cuteness[animal]
+func indexOf(name species: String, weight: Int) -> Int {
+    switch species {
+    case "duck":
+        return 0 + weight
+    case "human":
+        return 100 + weight
+    default: return -100 + weight
+    }
 }
+
+indexOf(name: "duck", weight: 10)
+indexOf(name: "human", weight: 70)
+indexOf(name: "cows", weight: 95)
