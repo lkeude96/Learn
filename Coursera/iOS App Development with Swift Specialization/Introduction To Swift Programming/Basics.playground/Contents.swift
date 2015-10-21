@@ -2,19 +2,18 @@
 
 import UIKit
 
-var constantString = "Hi"
-var str:String? = "Hello, playground"
+var animals = ["chickens", "cows", "ducks"]
+animals[1] = "geese"
 
-//str = nil
+var cuteness = [
+    "chicken" : "somewhat",
+    "ducks" : "cute",
+    "geese" : "scary"
+]
 
-print(str)
 
-//var counter = 0
+cuteness["ducks"]
 
-for counter in 0..<10 {
-    guard counter != 2 else { continue }
-    
-    if counter != 5 {
-        print(counter)
-    }
+for animal in animals {
+    cuteness[animal]
 }
