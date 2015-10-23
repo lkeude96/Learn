@@ -2,16 +2,21 @@
 
 import UIKit
 
-func indexOf(name species: String, weight: Int) -> Int {
-    switch species {
-    case "duck":
-        return 0 + weight
-    case "human":
-        return 100 + weight
-    default: return -100 + weight
+var beautifulImage = [
+    [3, 15, 3],
+    [26, 3, 4],
+    [14, 8, 22]
+]
+
+
+func raiseLowerNumbers(inout inImage image:[[Int]], to number:Int) {
+    for i in 0..<image.count {
+        for j in 0..<image[i].count {
+            if image[i][j] < number {
+                image[i][j] = number
+            }
+        }
     }
 }
 
-indexOf(name: "duck", weight: 10)
-indexOf(name: "human", weight: 70)
-indexOf(name: "cows", weight: 95)
+raiseLowerNumbers(inImage: &beautifulImage, to: 100)
