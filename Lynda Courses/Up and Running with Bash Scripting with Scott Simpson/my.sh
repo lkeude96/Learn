@@ -1,10 +1,7 @@
 #!/bin/bash
 # This is a basic bash script.
-[[ "cat" == "cat" ]]
+a=""
+b="cat"
+[[ -z $a && -n $b ]]
 echo $?
 
-[[ "cat" == "dog" ]]
-echo $?
-
-[[ 20 -gt 100 ]]
-echo $?
