@@ -1,6 +1,10 @@
 #!/bin/bash
 # This is a basic bash script.
-f=$((1/3))
-echo $f
-g=$(echo 1/3 | bc -l)
-echo $g
+[[ "cat" == "cat" ]]
+echo $?
+
+[[ "cat" == "dog" ]]
+echo $?
+
+[[ 20 -gt 100 ]]
+echo $?
