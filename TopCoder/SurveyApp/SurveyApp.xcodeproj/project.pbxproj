@@ -12,6 +12,7 @@
 		88B479871BDF01870045BCCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88B479851BDF01870045BCCD /* Main.storyboard */; };
 		88B479891BDF01870045BCCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B479881BDF01870045BCCD /* Assets.xcassets */; };
 		88B4798C1BDF01870045BCCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88B4798A1BDF01870045BCCD /* LaunchScreen.storyboard */; };
+		88B479941BDF07CA0045BCCD /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88B479931BDF07CA0045BCCD /* data.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		88B479881BDF01870045BCCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88B4798B1BDF01870045BCCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88B4798D1BDF01870045BCCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88B479931BDF07CA0045BCCD /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = data.plist; path = "../../../../../Downloads/Topcoder-FunSeries-SurveyApp-master/Topcoder-FunSeries-SurveyApp/data.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		88B479801BDF01870045BCCD /* SurveyApp */ = {
 			isa = PBXGroup;
 			children = (
+				88B479931BDF07CA0045BCCD /* data.plist */,
 				88B479811BDF01870045BCCD /* AppDelegate.swift */,
 				88B479831BDF01870045BCCD /* ViewController.swift */,
 				88B479851BDF01870045BCCD /* Main.storyboard */,
@@ -125,6 +128,7 @@
 			files = (
 				88B4798C1BDF01870045BCCD /* LaunchScreen.storyboard in Resources */,
 				88B479891BDF01870045BCCD /* Assets.xcassets in Resources */,
+				88B479941BDF07CA0045BCCD /* data.plist in Resources */,
 				88B479871BDF01870045BCCD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
