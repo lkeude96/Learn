@@ -11,28 +11,27 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var surveyTableView: UITableView!
-    
-    
-    var data: [NSDictionary] = [];
-    
+    var json: NSArray = []
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.surveyTableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
-        
-        let dataPath = NSBundle.mainBundle().pathForResource("data", ofType: "plist")
-        data = NSArray(contentsOfFile: dataPath!)! as! [NSDictionary]
+        json = getData()
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return data.count;
+        return json.count;
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) 
-        
-        cell.textLabel?.text = data[indexPath.row]["title"] as? String
+        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath)
+        cell.textLabel?.text = json[indexPath.row]["title"] as? String
         return cell
+    }
+    
+    func getData() -> NSArray {
+        let data: NSData = NSData(contentsOfURL: NSURL(string: "http://www.mocky.io/v2/560920cc9665b96e1e69bb46")!)!
+        return try! NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.MutableContainers) as! NSArray
     }
 
 

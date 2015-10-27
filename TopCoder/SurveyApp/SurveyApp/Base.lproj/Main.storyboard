@@ -64,7 +64,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="surveyTableView" destination="iXL-ff-Lao" id="fmC-mm-EJM"/>
+                        <outlet property="surveyTableView" destination="iXL-ff-Lao" id="O9z-Wz-MTv"/>
+                        <outlet property="view" destination="Dax-9V-IOT" id="jKY-k1-rDk"/>
                     </connections>
                 </viewController>
             </objects>
