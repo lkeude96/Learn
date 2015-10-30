@@ -2,12 +2,40 @@
 
 import UIKit
 
-var maybeString: String? = "hi"
-
-if maybeString != nil {
-    maybeString!.characters.count
+class CupHolder {
+    var cups: [String]? = nil
+    
 }
 
-var mostLikelyString: String! = "Hey"
+class Car {
+    var cupHolders: CupHolder? = nil
+}
 
-mostLikelyString.characters.count
+let niceCar = Car()
+niceCar.cupHolders = CupHolder()
+niceCar.cupHolders?.cups = ["Sprite"]
+//if var cupHolder = niceCar.cupHolders {
+//    if var cups = cupHolder.cups {
+//        cups.append("Coke")
+//    } else {
+//        cupHolder.cups = ["Coke"]
+//    }
+//}
+
+if niceCar.cupHolders?.cups?.count > 0 {
+    niceCar.cupHolders?.cups?[0] = "Coke"
+} else {
+    
+}
+
+if let cupHolder = niceCar.cupHolders {
+    if let cups = cupHolder.cups {
+        if (cups[0] == "Coke") {
+            print("Yay")
+        } else {
+            print("Aww")
+        }
+    }
+}
+
+let firstCup = niceCar.cupHolders?.cups?[0]
