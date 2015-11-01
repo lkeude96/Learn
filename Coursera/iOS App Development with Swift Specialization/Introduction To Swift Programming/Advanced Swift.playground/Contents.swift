@@ -9,7 +9,7 @@ b = 5
 
 a
 
-class number {
+struct number {
     var n: Int
     init(n: Int) {
         self.n = n
@@ -23,11 +23,3 @@ bNumber.n = 5
 
 bNumber.n
 aNumber.n
-
-struct valueNumber {
-    var n: Int
-    init(n: Int) {
-        self.n = n
-    }
-}
-
