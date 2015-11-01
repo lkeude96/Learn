@@ -2,36 +2,19 @@
 
 import UIKit
 
-func performMagic(thingy: String) -> String {
-    return thingy
+class Legs {
+    var count: Int = 0
 }
 
-performMagic("Hey")
-
-var magicFunction = performMagic
-magicFunction("Hey")
-
-var newMagicFunction = {
-    (thingy: String) -> String in
-    return thingy
+class Animal {
+    var name: String = ""
+    var legs: Legs = Legs()
 }
 
-class number {
-    var b: Int = 3
-}
-var aNumber = number()
-var adderFunction: (Int) -> Int = {
-    (a: Int) -> Int in
-    return a + aNumber.b
+public class LegVet {
+    weak var legs: Legs? = nil
 }
 
-adderFunction(1)
-
-aNumber.b = 5
-
-adderFunction(1)
-
-func doComplicatedStuff(completion: () -> ()) {
-    // does crazy stuff
-    completion()
-}
+let dog = Animal()
+let vet = LegVet()
+vet.legs = dog.legs
