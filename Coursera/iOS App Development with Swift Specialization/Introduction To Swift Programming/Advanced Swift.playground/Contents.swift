@@ -9,7 +9,7 @@ b = 5
 
 a
 
-struct number {
+class number {
     var n: Int
     init(n: Int) {
         self.n = n
