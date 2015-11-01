@@ -2,24 +2,32 @@
 
 import UIKit
 
-class Legs {
-    var count: Int = 0
-}
+var a = 3
+var b = a
 
-class Animal {
-    var name: String = ""
-    var legs: Legs = Legs()
-    
-    var uppercaseName: String {
-        get {
-        return name.uppercaseString
-        }
-        set {
-            name = newValue
-        }
+b = 5
+
+a
+
+class number {
+    var n: Int
+    init(n: Int) {
+        self.n = n
     }
-    
 }
 
+var aNumber = number(n: 3)
+var bNumber = aNumber
 
-let dog = Animal()
+bNumber.n = 5
+
+bNumber.n
+aNumber.n
+
+struct valueNumber {
+    var n: Int
+    init(n: Int) {
+        self.n = n
+    }
+}
+
