@@ -9,12 +9,17 @@ class Legs {
 class Animal {
     var name: String = ""
     var legs: Legs = Legs()
+    
+    var uppercaseName: String {
+        get {
+        return name.uppercaseString
+        }
+        set {
+            name = newValue
+        }
+    }
+    
 }
 
-public class LegVet {
-    weak var legs: Legs? = nil
-}
 
 let dog = Animal()
-let vet = LegVet()
-vet.legs = dog.legs
