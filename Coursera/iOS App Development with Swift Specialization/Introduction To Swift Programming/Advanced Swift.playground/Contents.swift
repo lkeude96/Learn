@@ -2,24 +2,24 @@
 
 import UIKit
 
-var a = 3
-var b = a
-
-b = 5
-
-a
-
-class number {
-    var n: Int
-    init(n: Int) {
-        self.n = n
+class SuperNumber: NSNumber {
+    override func getValue(value: UnsafeMutablePointer<Void>) {
+        super.getValue(value)
     }
 }
 
-var aNumber = number(n: 3)
-var bNumber = aNumber
 
-bNumber.n = 5
 
-bNumber.n
-aNumber.n
+protocol dancable {
+    func dance()
+}
+
+extension NSNumber: dancable {
+    func superCoolGetter() -> Int {
+        return 5
+    }
+    
+    func dance() {
+        
+    }
+}
