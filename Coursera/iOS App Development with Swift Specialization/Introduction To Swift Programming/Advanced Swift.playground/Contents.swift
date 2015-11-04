@@ -2,18 +2,17 @@
 
 import UIKit
 
-enum TypesOfVeggies : String {
-    case Carrots
-    case Tomatoes
-    case Celery
-}
-
-let carrots = TypesOfVeggies.Carrots
-carrots.rawValue
-
-func eatVeggies(veggie: TypesOfVeggies) {
+class Car {
+    var cupHolder: String
     
+    required init(cupHolder: String) {
+        self.cupHolder = cupHolder
+    }
+
+    deinit {
+        
+    }
 }
 
-let randomVeggie = TypesOfVeggies(rawValue: "Lead")
-eatVeggies(TypesOfVeggies.Carrots)
+let car = Car(cupHolder: "Cool")
+
