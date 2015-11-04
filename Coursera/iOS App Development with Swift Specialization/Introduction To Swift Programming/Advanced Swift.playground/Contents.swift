@@ -2,24 +2,18 @@
 
 import UIKit
 
-class SuperNumber: NSNumber {
-    override func getValue(value: UnsafeMutablePointer<Void>) {
-        super.getValue(value)
-    }
+enum TypesOfVeggies : String {
+    case Carrots
+    case Tomatoes
+    case Celery
 }
 
+let carrots = TypesOfVeggies.Carrots
+carrots.rawValue
 
-
-protocol dancable {
-    func dance()
-}
-
-extension NSNumber: dancable {
-    func superCoolGetter() -> Int {
-        return 5
-    }
+func eatVeggies(veggie: TypesOfVeggies) {
     
-    func dance() {
-        
-    }
 }
+
+let randomVeggie = TypesOfVeggies(rawValue: "Lead")
+eatVeggies(TypesOfVeggies.Carrots)
