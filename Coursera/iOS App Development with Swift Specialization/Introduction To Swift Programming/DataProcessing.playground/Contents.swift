@@ -23,14 +23,14 @@ for y in 0..<rgbaImage.height {
         let blueDelta = Int(pixel.blue) - avgBlue
         
         var modifier = 10
-        if (Int(pixel.red) + Int(pixel.green) + Int(pixel.blue) > sum) {
+        if (Int(pixel.red) < avgRed) {
             modifier = 1
         }
+        
         pixel.red = UInt8(max(min(255, avgRed + modifier * redDelta), 0))
-            pixel.green = UInt8(max(min(255, avgGreen + modifier * greenDelta), 0))
-            pixel.blue = UInt8(max(min(255, avgBlue + modifier * blueDelta), 0))
-            rgbaImage.pixels[index] = pixel
-
+//        pixel.green = UInt8(max(min(255, avgGreen + modifier * greenDelta), 0))
+//        pixel.blue = UInt8(max(min(255, avgBlue + modifier * blueDelta), 0))
+        rgbaImage.pixels[index] = pixel
     }
 }
 
