@@ -6,18 +6,24 @@ let image = UIImage(named: "sample")!
 
 let rgbaImage = RGBAImage(image: image)!
 
-let x = 20
-let y = 20
+var totalRed = 0
+var totalGreen = 0
+var totalBlue = 0
 
-let index = y * rgbaImage.width + x
+for y in 0..<rgbaImage.height {
+    for x in 0..<rgbaImage.width {
+        let index = y * rgbaImage.width + x
+        let pixel = rgbaImage.pixels[index]
+        
+        totalRed += Int(pixel.red)
+        totalGreen += Int(pixel.green)
+        totalBlue += Int(pixel.blue)
+    }
+}
 
-var pixel = rgbaImage.pixels[index]
-
-pixel.red = 255
-pixel.green = 0
-pixel.blue = 0
-
-
-rgbaImage.pixels[index] = pixel
+let pixelCount = rgbaImage.width * rgbaImage.height
+let avgRed = totalRed / pixelCount
+let avgGreen = totalGreen / pixelCount
+let avgBlue = totalBlue / pixelCount
 
 let newImage = rgbaImage.toUIImage()!
