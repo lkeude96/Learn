@@ -10,4 +10,7 @@
 
 @interface UTCity : NSObject
 
+@property (strong, nonatomic) NSString * name;
+@property (assign, nonatomic) NSInteger population;
+
 @end

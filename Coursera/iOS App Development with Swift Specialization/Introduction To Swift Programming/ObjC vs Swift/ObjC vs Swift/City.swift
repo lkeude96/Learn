@@ -9,5 +9,11 @@
 import UIKit
 
 class City {
-
+    let name: String
+    let population: Int;
+    
+    init(name: String, population: Int) {
+        self.name = name
+        self.population = population
+    }
 }

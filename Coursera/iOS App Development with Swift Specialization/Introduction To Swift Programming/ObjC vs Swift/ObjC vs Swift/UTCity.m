@@ -10,4 +10,15 @@
 
 @implementation UTCity
 
+- (instancetype)initWithName:(NSString *) name population: (NSInteger) population
+{
+    self = [super init];
+    if (self) {
+        self.name = name;
+        self.population = population;
+    }
+    return self;
+}
+
+
 @end
