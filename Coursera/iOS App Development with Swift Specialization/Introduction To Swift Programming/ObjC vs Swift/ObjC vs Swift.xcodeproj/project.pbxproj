@@ -14,6 +14,7 @@
 		88A962811BF7A9C800979982 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A9627F1BF7A9C800979982 /* LaunchScreen.storyboard */; };
 		88A962891BF7AA2900979982 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A962881BF7AA2900979982 /* City.swift */; };
 		88A9628D1BF7AA8F00979982 /* UTCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A9628C1BF7AA8F00979982 /* UTCity.m */; };
+		88A962901BF7BE9E00979982 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A9628F1BF7BE9E00979982 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		88A9628A1BF7AA8F00979982 /* ObjC vs Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjC vs Swift-Bridging-Header.h"; sourceTree = "<group>"; };
 		88A9628B1BF7AA8F00979982 /* UTCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTCity.h; sourceTree = "<group>"; };
 		88A9628C1BF7AA8F00979982 /* UTCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTCity.m; sourceTree = "<group>"; };
+		88A9628E1BF7BE9E00979982 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88A9628F1BF7BE9E00979982 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				88A962761BF7A9C800979982 /* AppDelegate.swift */,
+				88A9628E1BF7BE9E00979982 /* AppDelegate.h */,
+				88A9628F1BF7BE9E00979982 /* AppDelegate.m */,
 				88A962781BF7A9C800979982 /* ViewController.swift */,
 				88A962881BF7AA2900979982 /* City.swift */,
 				88A9628B1BF7AA8F00979982 /* UTCity.h */,
@@ -150,6 +155,7 @@
 				88A9628D1BF7AA8F00979982 /* UTCity.m in Sources */,
 				88A962771BF7A9C800979982 /* AppDelegate.swift in Sources */,
 				88A962891BF7AA2900979982 /* City.swift in Sources */,
+				88A962901BF7BE9E00979982 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

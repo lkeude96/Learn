@@ -23,6 +23,8 @@
 
 - (instancetype)initWithName:(NSString *) name cities:(NSArray *) cities;
 
+- (UTCity *) findCityWithName:(NSString *) name;
+
 @property (strong, nonatomic, readonly) UTCity * cityWithLargestPopulation;
 
 @end
