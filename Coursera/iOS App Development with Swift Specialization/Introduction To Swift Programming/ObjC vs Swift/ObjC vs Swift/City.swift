@@ -35,4 +35,16 @@ class Country {
         }
         return nil
     }
+    
+    var cityWithLargestPopulation: City {
+        var maxPopulation = 0
+        var largestCity: City = cities[0]
+        for city in cities {
+            if city.population > maxPopulation {
+                largestCity = city
+                maxPopulation = city.population
+            }
+        }
+        return largestCity
+    }
 }

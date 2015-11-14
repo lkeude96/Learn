@@ -41,4 +41,18 @@
     }
     return nil;
 }
+
+- (UTCity *) cityWithLargestPopulation {
+    NSInteger maxPoputlation = 0;
+    UTCity * largestCity;
+    
+    for (UTCity * city in self.cities) {
+        if (city.population > maxPoputlation) {
+            largestCity = city;
+            maxPoputlation = city.population;
+        }
+    }
+    return largestCity;
+}
+
 @end
