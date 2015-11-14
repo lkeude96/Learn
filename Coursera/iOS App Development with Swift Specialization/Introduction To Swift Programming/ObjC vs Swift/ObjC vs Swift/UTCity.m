@@ -20,5 +20,25 @@
     return self;
 }
 
+@end
 
+@implementation UTCountry
+
+- (instancetype)initWithName:(NSString *)name cities:(NSArray *)cities {
+    self = [super init];
+    if (self) {
+        self.name = name;
+        self.cities = cities;
+    }
+    return self;
+}
+
+- (UTCity *) findCityWithName:(NSString *) name {
+    for (UTCity * city in self.cities) {
+        if ([city.name isEqualToString:name]) {
+            return city;
+        }
+    }
+    return nil;
+}
 @end

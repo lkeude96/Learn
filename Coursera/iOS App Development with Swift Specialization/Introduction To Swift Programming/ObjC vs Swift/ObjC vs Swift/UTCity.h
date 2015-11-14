@@ -13,4 +13,14 @@
 @property (strong, nonatomic) NSString * name;
 @property (assign, nonatomic) NSInteger population;
 
+- (instancetype)initWithName:(NSString *)name population:(NSInteger) population;
+@end
+
+@interface UTCountry : NSObject
+
+@property (strong, nonatomic) NSString * name;
+@property (assign, nonatomic) NSArray * cities;
+
+- (instancetype)initWithName:(NSString *) name cities:(NSArray *) cities;
+
 @end
