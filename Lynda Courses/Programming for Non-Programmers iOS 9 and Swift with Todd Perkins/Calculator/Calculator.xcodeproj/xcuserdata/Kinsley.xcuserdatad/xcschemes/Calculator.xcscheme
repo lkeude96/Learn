@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "883324951CD1AC500050AFBE"
-               BuildableName = "Variables.app"
-               BlueprintName = "Variables"
-               ReferencedContainer = "container:Variables.xcodeproj">
+               BlueprintIdentifier = "883324EF1CD1DFF20050AFBE"
+               BuildableName = "Calculator.app"
+               BlueprintName = "Calculator"
+               ReferencedContainer = "container:Calculator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "883324951CD1AC500050AFBE"
-            BuildableName = "Variables.app"
-            BlueprintName = "Variables"
-            ReferencedContainer = "container:Variables.xcodeproj">
+            BlueprintIdentifier = "883324EF1CD1DFF20050AFBE"
+            BuildableName = "Calculator.app"
+            BlueprintName = "Calculator"
+            ReferencedContainer = "container:Calculator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "883324951CD1AC500050AFBE"
-            BuildableName = "Variables.app"
-            BlueprintName = "Variables"
-            ReferencedContainer = "container:Variables.xcodeproj">
+            BlueprintIdentifier = "883324EF1CD1DFF20050AFBE"
+            BuildableName = "Calculator.app"
+            BlueprintName = "Calculator"
+            ReferencedContainer = "container:Calculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "883324951CD1AC500050AFBE"
-            BuildableName = "Variables.app"
-            BlueprintName = "Variables"
-            ReferencedContainer = "container:Variables.xcodeproj">
+            BlueprintIdentifier = "883324EF1CD1DFF20050AFBE"
+            BuildableName = "Calculator.app"
+            BlueprintName = "Calculator"
+            ReferencedContainer = "container:Calculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

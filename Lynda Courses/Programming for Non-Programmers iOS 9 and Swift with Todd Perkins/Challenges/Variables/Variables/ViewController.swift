@@ -9,10 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var labelName: UILabel!
+    @IBOutlet weak var labelAge: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        labelName.text = "Eude"
+        labelAge.text = "\(19)"
+        
     }
 
     override func didReceiveMemoryWarning() {
