@@ -1,2 +1,0 @@
-INDEX VERSION 1.127+/Users/Kinsley/Google Drive/Learn/Lynda Courses/Java Essential Training with David Gassner/workspace/.metadata/.plugins/org.eclipse.jdt.core
-2278894364.index

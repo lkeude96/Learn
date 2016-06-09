@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Extract method &apos;private static double addTwoValues(String s1, String s2)&apos; from &apos;Calculator.main()&apos; to &apos;Calculator&apos;&#x0A;- Original project: &apos;MethodsWithArgs&apos;&#x0A;- Method name: &apos;addTwoValues&apos;&#x0A;- Destination type: &apos;Calculator&apos;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;addTwoValues&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;{Calculator.java" name="addTwoValues" replace="false" selection="180 100" stamp="1433282348131" version="1.0" visibility="2"/>
-</session>

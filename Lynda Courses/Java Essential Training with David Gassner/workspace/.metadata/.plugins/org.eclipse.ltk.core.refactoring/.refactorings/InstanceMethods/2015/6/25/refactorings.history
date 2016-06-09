@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy 3 packages to &apos;InstanceVariables/src&apos;&#x0A;- Original project: &apos;InstanceMethods&apos;&#x0A;- Destination element: &apos;InstanceVariables/src&apos;&#x0A;- Original elements:&#x0A;     InstanceMethods/src/com.lynda.olivepress.olives&#x0A;     InstanceMethods/src/com.lynda.olivepress.press&#x0A;     InstanceMethods/src/com.lynda.olivepress" description="Copy packages" destination="=InstanceVariables/src" element1="/src&lt;com.lynda.olivepress.olives" element2="/src&lt;com.lynda.olivepress.press" element3="/src&lt;com.lynda.olivepress" flags="589830" fragments="3" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1434571545708" version="1.0"/>
-</session>

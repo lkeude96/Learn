@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">SmartButton</string>
-
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
-    <string name="message_text">Hello</string>
-    <string name="button_text">Click me Hoss</string>
-</resources>

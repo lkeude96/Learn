@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy element &apos;loremipsum.txt&apos; to &apos;FileManagement&apos;&#x0A;- Original project: &apos;ApacheFileUtils&apos;&#x0A;- Destination element: &apos;FileManagement&apos;&#x0A;- Original element: &apos;loremipsum.txt&apos;" description="Copy file" destination="=FileManagement" element1="loremipsum.txt" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1434586927196" units="0" version="1.0"/>
-</session>

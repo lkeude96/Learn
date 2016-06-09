@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy package &apos;com.toddperkins.uar&apos; to &apos;publishing/src&apos;&#x0A;- Original project: &apos;opening_url&apos;&#x0A;- Destination element: &apos;publishing/src&apos;&#x0A;- Original element: &apos;opening_url/src/com.toddperkins.uar&apos;" description="Copy package" destination="=publishing/src" element1="/src&lt;com.toddperkins.uar" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1438055027077" version="1.0"/>
-</session>
